@@ -32,7 +32,7 @@
  	 	 	 	"eng": "You can purchase global buff items here"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "Vous devez être au moins au niveau 5 pour accéder à l'échange de l'unité",
+ 	 	 	 	"trans": "Vous devez être au moins au niveau 5 pour accéder à l'échange d'unités",
  	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
  	 	 	}
  	 	},
@@ -46,7 +46,7 @@
  	 	 	 	"eng": "If you liked the game, please consider donation :)"
  	 	 	},
  	 	 	"canAccessError": {
- 	 	 	 	"trans": "Vous devez être au moins au niveau 5 pour accéder au marchand cosmétique",
+ 	 	 	 	"trans": "Vous devez être au moins au niveau 5 pour accéder au marchand de cosmétiques",
  	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
  	 	 	}
  	 	},
@@ -68,15 +68,15 @@
  	 	},
  	 	"terminal": {
  	 	 	"name": {
- 	 	 	 	"trans": "Terminale",
+ 	 	 	 	"trans": "Terminal",
  	 	 	 	"eng": "Terminal"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "Pour accéder à la zone suivante, vous devez utiliser des Fragments de clé secrète obtenus dans les donjons, \r\n        et utiliser le Terminal pour cracker la clé de la zone suivante",
+ 	 	 	 	"trans": "Pour accéder à la zone suivante, vous devez utiliser des Fragments de clé secrète obtenus dans les donjons \r\n        et utiliser le Terminal pour cracker la clé de la zone suivante",
  	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Votre ordinateur personnel, quoique un peu vieillissant, peut faire le boulot avec assez de patience",
+ 	 	 	 	"trans": "Votre ordinateur personnel, quoique un peu vieux, peut faire le boulot avec assez de patience",
  	 	 	 	"eng": "Your personal computer, although it's a little outdated, it can get the job done with enough patience"
  	 	 	},
  	 	 	"canAccessError": {
@@ -130,7 +130,7 @@
  	 	 	 	"eng": "Automatic Recycler"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Recycleur entièrement automatisé, capable de recycler des objets en simple morceaux",
+ 	 	 	 	"trans": "Recycleur entièrement automatisé, capable de recycler des objets en pièces ",
  	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
  	 	}
@@ -376,7 +376,7 @@
  	 	 	 	"eng": "Gang Headquarters"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Gang]\r\n        Le quartier général pour vous et les membres de votre gang, permettant de planifier et exécuter votre prochaine opération",
+ 	 	 	 	"trans": "[Gang]\r\n        Le quartier général pour vous et les membres de votre gang permettant de planifier et d'exécuter votre prochaine opération",
  	 	 	 	"eng": "[Gang]\r\n        The headquarters for you and your gang members to plan and execute your next operation"
  	 	 	},
  	 	 	"cantEnterError": {
@@ -432,7 +432,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "Une cache contenant des informations utilisées pour l'impression 3D moléculaire d'un(e) ${typeName}, \r\n                    Vous pouvez créer un(e) ${typeName} avec le [Molecular 3d Printer] au [Central Hub].\r\n                    \r\n                    Astuce : Le niveau de l'objet obtenu par impression est déterminé par votre proficience en impression,\r\n                    donc imprimez toujours ceux de qualité défaillante, vu qu'ils coûtent moins et sont utiles pour améiorer votre proficience en impression",
+ 	 	 	 	"trans": "Une cache contenant des informations utilisées pour l'impression 3D moléculaire d'un(e) ${typeName}, \r\n                    Vous pouvez créer un(e) ${typeName} avec le [Molecular 3d Printer] au [Central Hub].\r\n                    \r\n                    Astuce : Le niveau de l'objet obtenu par impression est déterminé par votre proficience en impression,\r\n                    donc imprimez toujours ceux de qualité défaillante, vu qu'ils coûtent moins et sont utiles pour améiorer votre expérience en impression",
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	},
@@ -444,13 +444,13 @@
  	 	},
  	 	"upperArmor": {
  	 	 	"name": {
- 	 	 	 	"trans": "armure haute",
+ 	 	 	 	"trans": "armure",
  	 	 	 	"eng": "upper armor"
  	 	 	}
  	 	},
  	 	"lowerArmor": {
  	 	 	"name": {
- 	 	 	 	"trans": "armure basse",
+ 	 	 	 	"trans": "jambières",
  	 	 	 	"eng": "lower armor"
  	 	 	}
  	 	},
@@ -482,7 +482,7 @@
  	 	 	 	"eng": "Degraded Nano Repair Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Vieux nano bot de réparation, généralement utilisé pour réparer de petits appareils technologiques",
+ 	 	 	 	"trans": "Vieux nano bot de réparation, généralement utilisés pour réparer de petits appareils technologiques",
  	 	 	 	"eng": "An old nano repair bot, usually used to repair small tech devices."
  	 	 	}
  	 	},
@@ -512,7 +512,7 @@
  	 	 	 	"eng": "Military Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nano machines injectables standards pour un usage militaire, soins possibles pendant le combat.",
+ 	 	 	 	"trans": "Nano machines injectables pour un usage militaire standard, soins possibles pendant le combat.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They are capable of patching injuries while in combat."
  	 	 	}
  	 	},
@@ -712,13 +712,13 @@
  	 	 	 	"eng": "Energy Cell"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Dispositif de stockage d'énergie portable, il peut être utilisé comme munitions consommables pour vos armes spéciales",
+ 	 	 	 	"trans": "Dispositif de stockage d'énergie portable, il peut être utilisé comme munition consommable pour votre arme spéciale",
  	 	 	 	"eng": "Portable energy storage device, it can be used as consumable ammo for your Special Weapons"
  	 	 	}
  	 	},
  	 	"ammo2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Charge anti-matière",
+ 	 	 	 	"trans": "Charge d'antimatière",
  	 	 	 	"eng": "Anti Matter Charge"
  	 	 	},
  	 	 	"description": {
@@ -728,21 +728,21 @@
  	 	},
  	 	"ammoTech1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Pièces de munitions tech",
+ 	 	 	 	"trans": "Pièces de munitions",
  	 	 	 	"eng": "Ammunition tech parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Pièces de munitions tech, celles-ci peuvent être couramment trouvées circulant sur le marché noir. \r\n        Vous pouvez les utiliser pour fabriquer des munitions si vous savez comment.",
+ 	 	 	 	"trans": "Pièces de munitions, celles-ci peuvent souvent être trouvées circulant sur le marché noir. \r\n        Vous pouvez les utiliser pour fabriquer des munitions, si vous savez comment.",
  	 	 	 	"eng": "Ammunition tech parts, These can be commonly found circulating the black market. \r\n        You can use these to craft ammunition if you understand how."
  	 	 	}
  	 	},
  	 	"ammoTech2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Pièces de munitions tech Militaire",
+ 	 	 	 	"trans": "Pièces de munitions Militaires",
  	 	 	 	"eng": "Military ammunition tech parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Les pièces de munitions tech de qualité militaire, couramment utilisées par le gouvernement, l'armée et les élites, peuvent être utilisées pour fabriquer des munitions utilisables si vous avez le savoir-faire",
+ 	 	 	 	"trans": "Les pièces de munitions de qualité militaire régulièrement utilisées par le gouvernement, l'armée et les élites, peuvent être utilisées pour fabriquer des munitions utilisables si vous avez le savoir-faire",
  	 	 	 	"eng": "Military grade ammunition tech parts, commonly used by government, military and the elites,can be used to craft into usable Ammo if you have the know-how"
  	 	 	}
  	 	},
@@ -752,7 +752,7 @@
  	 	 	 	"eng": "Tech Scrap"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Débris technologiques provenant d'équipements démontés, ils peuvent être rétroconçus pour gagner des points d'impression. \r\n        Vous pouvez effectuer rétro ingénierie dans le hub emplois.",
+ 	 	 	 	"trans": "Débris technologiques provenant d'équipements démontés, ils peuvent être rétroconçus pour gagner des points d'impression. \r\n        Vous pouvez effectuer de la rétro ingénierie dans le hub emplois.",
  	 	 	 	"eng": "Technology scrap from disassembled equipment, this can be reverse engineered to gain printing xp. \r\n        You can perform reverse engineering in the Job Hub."
  	 	 	}
  	 	},
@@ -770,7 +770,7 @@
  	 	},
  	 	"tertiary": {
  	 	 	"name": {
- 	 	 	 	"trans": "Arme de Destruction",
+ 	 	 	 	"trans": "Arme Destructive",
  	 	 	 	"eng": "Destructive Weapon"
  	 	 	}
  	 	},
@@ -806,7 +806,7 @@
  	 	},
  	 	"clanDungeonKey": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmetteur d'ordre d'invasion de gangs",
+ 	 	 	 	"trans": "Transmetteur d'ordre d'invasion de gang",
  	 	 	 	"eng": "Gang Invasion Order Transmitter"
  	 	 	},
  	 	 	"description": {
@@ -840,7 +840,7 @@
  	 	 	 	"eng": "Equipment Calibration Core"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un fragment de mémoire du marché noir contient un algorithme et un schéma hautement cryptés qui sont cruciaux dans le processus de mise à niveau des équipements",
+ 	 	 	 	"trans": "Un fragment de mémoire du marché noir contient un algorithme et un schéma hautement crypté qui sont cruciaux dans le processus de mise à niveau des équipements",
  	 	 	 	"eng": "A black market memory shard contains highly encrypted algorithm and schematic that is crucial in the process of upgrading equipments"
  	 	 	}
  	 	},
@@ -850,7 +850,7 @@
  	 	 	 	"eng": "Calibration AI Shard (5%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Contient des fragments d'IA avancée conçus pour aider à la mise à niveau des équipements.\r\n        Lorsqu'il est utilisé, réduit le risque d'échec destructeur de 5 % (empilable) pendant 5 minutes.",
+ 	 	 	 	"trans": "Contient des fragments d'IA avancée conçus pour aider à la mise à niveau des équipements.\r\n        Lorsqu'il est utilisé, il réduit le risque d'échec destructeur de 5 % (empilable) pendant 5 minutes.",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 5% (stackable) for 5 minutes."
  	 	 	}
  	 	},
@@ -946,7 +946,7 @@
  	 	},
  	 	"healing9": {
  	 	 	"name": {
- 	 	 	 	"trans": "Botte légendaire Nano Medic",
+ 	 	 	 	"trans": "nano robot médical légendaire",
  	 	 	 	"eng": "Legendary Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
@@ -956,7 +956,7 @@
  	 	},
  	 	"healing10": {
  	 	 	"name": {
- 	 	 	 	"trans": "Epic Nano Medic Bot",
+ 	 	 	 	"trans": "Nano robot médical Épique",
  	 	 	 	"eng": "Epic Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
@@ -966,61 +966,61 @@
  	 	},
  	 	"healingArea9": {
  	 	 	"name": {
- 	 	 	 	"trans": "Drone légendaire Nano Medic",
+ 	 	 	 	"trans": "Nano drone médical Légendaire",
  	 	 	 	"eng": "Legendary Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable d'envoi de milliers de machines de nano avancées pour guérir les joueurs proches",
+ 	 	 	 	"trans": "capable d'envoyer des milliers de nano machines avancées pour guérir les joueurs proches",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea10": {
  	 	 	"name": {
- 	 	 	 	"trans": "Drone epic nano medic",
+ 	 	 	 	"trans": "Nano drone médical Épique",
  	 	 	 	"eng": "Epic Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "capable d'envoi de milliers de machines de nano avancées pour guérir les joueurs proches",
+ 	 	 	 	"trans": "capable d'envoyer des milliers de nano machines avancées pour guérir les joueurs proches",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"upgradeChanceIncreaser2personal": {
  	 	 	"name": {
- 	 	 	 	"trans": "Étalonnage AI Shard (50%) [Event]",
+ 	 	 	 	"trans": "Étalonnage de fragments d'IA (50%) [Event]",
  	 	 	 	"eng": "Calibration AI Shard (50%) [EVENT]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Contient des fragments d'avance IA conçus pour aider à moderniser les équipements. \r\n         Lorsqu'il est utilisé, diminue les risques d'échec destructeur de 50% pendant 5 minutes. Cela ne concerne que vous-même. \r\n         Vous pouvez calibrer des articles dans votre siège de gang, vous devez participer ou commencer un gang d'abord.",
+ 	 	 	 	"trans": "Contient des fragments d'IA conçus pour aider à moderniser les équipements. \r\n         Lorsqu'il est utilisé, il diminue les risques d'échec destructeur de 50% pendant 5 minutes. Cela ne concerne que vous-même. \r\n         Vous pouvez calibrer des articles dans votre siège de gang, vous devez participer ou commencer un gang d'abord.",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% for 5 minutes. this only affect yourself.\r\n        You can calibrate items in your Gang Headquarters, you must join or start a gang first."
  	 	 	}
  	 	},
  	 	"chatExploitPirate": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmetteur d'exploit de chat [pirate]",
+ 	 	 	 	"trans": "Transmetteur d'exploitation de chat [pirate]",
  	 	 	 	"eng": "Chat exploit transmitter [PIRATE]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un module d'exploitation qui intercepte les packages de discussion globaux et la modifie, effectuant une attaque man-in-the-intermédiaire. \r\n         Transforme tout discours à la discussion mondiale vers Pirate Parle. Cela effets tous les joueurs pendant 10 minutes",
+ 	 	 	 	"trans": "Un module d'exploitation qui intercepte les paquets de du chat global et la modifie, effectuant une attaque man-in-the-Middle. \r\n         Transforme tout discour du chat global en paroles de pirate. Cela affecte tous les joueurs pendant 10 minutes",
  	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to Pirate Speak. This effects all players for 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitLeet": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmetteur d'exploit de chat [1337]",
+ 	 	 	 	"trans": "Transmetteur d'exploitation de chat [1337]",
  	 	 	 	"eng": "Chat exploit transmitter [1337]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un module d'exploitation qui intercepte les packages de discussion globaux et la modifie, effectuant une attaque man-in-the-intermédiaire. \r\n         Transforme tout discours à la discussion mondiale vers L33T SP34K. Cela effets tous les joueurs pendant 10 minutes",
+ 	 	 	 	"trans": "Un module d'exploitation qui intercepte les paquets du chat globap et la modifie, effectuant une attaque man-in-the-Middle. \r\n         Transforme tout discour du chat global vers L33T SP34K. Cela affecte tous les joueurs pendant 10 minutes",
  	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to l33t Sp34k. This effects all players for 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitUwU": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmetteur d'exploit de chat [UWU]",
+ 	 	 	 	"trans": "Transmetteur d'exploitation de chat [UWU]",
  	 	 	 	"eng": "Chat exploit transmitter [UwU]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un MODUWE EXPWOIT QUI INTEEWECTURE LES PACKAGES DE CHAUS DE GWOBAW ET LE MOTIFIENT, PEWFOWMINGMENT ATTAQUET ATTAQUET. \r\n          Twansfowms aww discours à la discussion de GwOquaw à UWU parle. Ces effets aww pingwews fow 10 minutes",
+ 	 	 	 	"trans": "Un MODUWE D'EXPWOITATION QUI INTEEWECTURE LES PAWQUETS DU CHAT GWOBAW ET LE WOTIFIENT, PEWFOWMINGMENT ATTAQUET ATTAQUET UWU. \r\n          Transforme tout discour du chat global en textes UWU. Affecte tous les joueurs pour 10 minutes",
  	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
  	 	 	}
  	 	},
@@ -1030,7 +1030,7 @@
  	 	 	 	"eng": "Factory reset shard"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un rayon stocke des paramètres par défaut et des algorithmes pour les équipements, ceci est utilisé pour la réinitialisation d'usine de vos équipements",
+ 	 	 	 	"trans": "Un rayon contenant les paramètres par défaut des algorithmes pour les équipements, réinitialisant d'usine vos équipements",
  	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
  	 	 	}
  	 	},
@@ -1040,27 +1040,27 @@
  	 	 	 	"eng": "Personal Synaptic Accelerator"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Lorsqu'il est utilisé, sautez 60 minutes sur les tâches Afk. \r\n         doit être utilisé à l'écran AFK",
+ 	 	 	 	"trans": "Lorsqu'il est utilisé, passe 60 minutes des tâches Afk instantanément. \r\n         doit être utilisé à l'écran AFK",
  	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
  	 	 	}
  	 	},
  	 	"chatExploitLove": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmetteur d'exploit de chat [amour]",
+ 	 	 	 	"trans": "Transmetteur d'exploitation de chat [amour]",
  	 	 	 	"eng": "Chat exploit transmitter [Love]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Vous avez un peu d'amour et vous obtenez un peu d'amour! tout le monde obtient de l'amour! \r\n         Quand on a utilisé tout le monde l'aime \r\n         Cela effets tous les joueurs exercent 10 minutes",
- 	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	 	"trans": "Tu obtiens un peu d'amour et vous aussi obtenez un peu d'amour. tout le monde obtient de l'amour! \r\n         Quand utilisé, tout le monde s'aime \r\n         Cela affecte tous les joueurs pour 10 minutes",
+ 	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players for 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitProtect": {
  	 	 	"name": {
- 	 	 	 	"trans": "Cybertunnel VPN",
+ 	 	 	 	"trans": "VPN CyberTunnel",
  	 	 	 	"eng": "CyberTunnel VPN"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Inquiet du grand frère espionnant sur vous pendant que vous parcourez le cyberespace? \r\n         Vos interphones sont toujours piratées par des attaques malveillantes? \r\n         Utilisez Cybertunnel VPN pour protéger et crypter votre expérience NetRunning! \r\n        \r\n         Une fois activé, ignore tout exploit de discussion pendant 1 heure",
+ 	 	 	 	"trans": "Inquiet du grand frère vous espionnant pendant que vous parcourez le cyberespace? \r\n         Vos appareils sont toujours piratés par des attaques malveillantes? \r\n         Utilisez le VPN CyberTunnel pour protéger et crypter votre expérience sur le net! \r\n        \r\n         Une fois activé, ignore tout exploitation de discussion pendant 1 heure",
  	 	 	 	"eng": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour"
  	 	 	}
  	 	},
